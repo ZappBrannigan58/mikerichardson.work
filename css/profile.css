@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    background-color: #131313;
+}
+
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(65,90,119,.5);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(27,38,59,1);
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+html,body { 
+	height:100%; 
+}
+.banner {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-height: 10px;
+	color: #fbfbfb;
+	padding-bottom: 25px;
+}
+
+.banner div {
+	padding-right: 2%;
+}
+
+.banner h1{
+	margin-left: 50%;
+}
+
+.description {
+	margin-left: 1%;
+}
+
+.leftinfo {
+	padding-left: 2%;
+	width: 20%;
+	background-color: #219ebc;
+	color: #ffffff;
+	padding: 3%;
+	min-height: 100vh;
+}
+
+.logo {
+	width: 20vh;
+	cursor: pointer;
+}
+
+.maincontainer {
+	color: #9a8c98;
+	display: flex;
+	flex-direction: row;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+	color: #0088A9;
+}
+
+.nav_links li, a, button {
+	font-family: "Michroma";
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+.profilepic{
+	max-height: 10vh;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.rightinfo{
+	background-color: #ffffff;
+	color: #219ebc;
+	margin: 0;
+	padding-left: 1%;
+	min-height: 100vh;
+	width: 100%;
+	padding-top: 9%;
+}
+
+#name {
+	padding-right: 70%;
+	margin-bottom: 3%;
+}
+
+#gyear{
+	padding-left: 40%;
+}
+
+/*******************     Navigation  **********************/
+
+.logo {
+	width: 18vh;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav li {
+	align-content: flex-end;
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 20px;
+	color: #e9ecef;
+}
+
+.pbutton {
+	border-radius: 15px;
+	padding: 5px 20px;
+	background-color: #003566;
+	color: white;
+}
+
+.pbutton:active {
+	background-color: #1a759f;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+@media (max-width: 540px) {
+	.nav {
+		flex-direction: column;
+	}
+}
+
+/**************************************** END NAVIGATION **/
