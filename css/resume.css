@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Zen+Dots&display=swap');
+
+
+/*******************     Navigation  **********************/
+
+.logo {
+	width: 18vh;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: "Zen Dots";
+	padding-bottom: 2%;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #e9ecef;
+}
+
+.nav li {
+	align-content: flex-end;
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.pbutton {
+	border-radius: 15px;
+	padding: 5px 20px;
+	background-color: #003566;
+	color: white;
+}
+
+.pbutton:active {
+	background-color: #1a759f;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+@media (max-width: 540px) {
+	.nav {
+		flex-direction: column;
+	}
+}
+
+
+/**************************************** END NAVIGATION **/
+
+body {
+	background-color: #212529;
+}
+
+.author {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 18vh;
+	border-radius: 40%;
+	border: solid 2px #e9ecef;
+}
+
+.edu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+	padding: 2%;
+	width: 20%;
+	background-color: #48cae4;
+	color: #e9ecef;
+}
+
+.maincontainer {
+	display: flex;
+}
+
+.right {
+	padding: 2%;
+	background-color: #e9ecef;
+	color: #219ebc;
+}
+
+#gyear {
+	margin-right: 20%;
+}
+
+@media (min-width: 1400px){
+	#gyear{
+	margin-right: 40%;
+}
+})
