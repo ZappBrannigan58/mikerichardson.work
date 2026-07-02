@@ -40,7 +40,12 @@ h2 {
 }
 
 
-
+@media(max-width: 540px){
+	.who {
+		flex-direction: column;
+		align-items: center;
+	}
+}
 
 /*******************     Navigation  **********************/
 
