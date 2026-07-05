@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Short+Stack&display=swap');
+
+/*******************     Navigation  **********************/
+
+.logo {
+	width: 18vh;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1% 2%;
+	font-family: "Monda";
+}
+
+.nav li {
+	align-content: flex-end;
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 20px;
+	color: #e9ecef;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #adb5bd;
+}
+
+.pbutton {
+	border-radius: 15px;
+	padding: 5px 20px;
+	background-color: #003566;
+	color: white;
+}
+
+.pbutton:active {
+	background-color: #1a759f;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+@media (max-width: 540px) {
+	.nav {
+		flex-direction: column;
+	}
+}
+
+/**************************************** END NAVIGATION **/
+
+body {
+	background-color: #264653;
+	margin: 0;
+}
+
+footer {
+	padding: 2%;
+}
+
+footer button{
+	margin-left: 2%;
+}
+
+header{
+	background-color: black;
+}
+
+main {
+	padding: 0 2%;
+	font-family: "Short Stack";
+	color: #a9d6e5;
+}
+
+.article {
+	display: flex;
+}
+
+.foot a {
+	text-decoration: none;
+	color: #adb5bd;
+	font-family: "Short Stack";
+}
+
+.foot{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.mainpic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	border: solid 2px black;
+	width: 30vh;
+}
+
+.right {
+	margin-left: 2%;
+}
+
+.suppic {
+	height: 30vh;
+	border-radius: 15px;
+	border: solid 2px #a9d6e5;
+	margin: 2% 1% 0 2%;
+}
+
+.suppic-l{
+	width: 40vh;
+	border-radius: 15px;
+	border: solid 2px #a9d6e5;
+	margin: 2% 1% 0 2%;
+}
+
+.top {
+	display: flex;
+	justify-content: center;
+}
+
+#kiddingme {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+@media (max-width: 900px){
+	.article {
+		flex-direction: column;
+	}
+}
