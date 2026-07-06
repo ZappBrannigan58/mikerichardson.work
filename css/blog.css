@@ -75,6 +75,16 @@ main {
 	display: flex;
 }
 
+.btmpic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	width: 70vh;
+	border-radius: 15px;
+	border: solid 2px #a9d6e5;
+}
+
 .foot a {
 	text-decoration: none;
 	color: #adb5bd;
@@ -91,7 +101,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
-	border: solid 2px black;
+	border: solid 2px #a9d6e5;
 	width: 30vh;
 }
 
