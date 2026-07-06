@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Zen+Dots&display=swap');
 
 a {
 	text-decoration: none;
@@ -12,6 +12,7 @@ a:hover {
 
 body {
 	background-color: #131313;
+	font-family: "Zen Dots";
 }
 
 h2 {
@@ -59,7 +60,6 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-family: "Monda";
 }
 
 .nav li {
