@@ -92,4 +92,13 @@ body {
 	#gyear{
 	margin-right: 40%;
 }
-})
+}
+
+@media (min-width: 800px){
+	.left {
+		max-width: 100%;
+	}
+	.maincontainer {
+		flex-direction: column;
+	}
+}
