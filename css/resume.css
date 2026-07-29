@@ -96,7 +96,7 @@ body {
 
 @media (min-width: 800px){
 	.left {
-		max-width: 100%;
+		width: 100%;
 	}
 	.maincontainer {
 		flex-direction: column;
